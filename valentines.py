@@ -72,7 +72,7 @@ if not st.session_state.intro_done:
     st.markdown("""
         <div style="display: flex; justify-content: center; align-items: center; height: 70vh; 
                     font-size: 2.5rem; color: #ff69b4; text-align: center; font-family: 'Arial', sans-serif;">
-            Hi beautiful, I want to ask you an important question...
+            My beautiful baby, I want to ask you an important question...
         </div>
     """, unsafe_allow_html=True)
     
@@ -82,7 +82,7 @@ if not st.session_state.intro_done:
 
 # --- STATE 2: THE PROPOSAL SCREEN ---
 elif not st.session_state.accepted:
-    st.title("Hi Beautiful... 🌹")
+    st.title("My babooooo... 🌹")
     st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueG56ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6JmVwPXYxX2ludGVybmFs_by_id&ct=g/c76IJLufpNwSULPk77/giphy.gif")
     st.header("Will you be my Valentine?")
 
@@ -105,4 +105,5 @@ else:
     st.balloons()
     st.markdown("<h1 style='text-align: left; color: #4caf50;'>Yay! I knew you'd say yes! 🥰</h1>", unsafe_allow_html=True)
     st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueG56ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/KztT2c4u8mYYUiMKdJ/giphy.gif")
+
 
