@@ -103,6 +103,5 @@ elif not st.session_state.accepted:
 # --- STATE 3: THE SUCCESS SCREEN ---
 else:
     st.balloons()
-    st.markdown("<h1 style='text-align: center; color: #4caf50;'>Yay! I knew you'd say yes! 🥰</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: left; color: #4caf50;'>Yay! I knew you'd say yes! 🥰</h1>", unsafe_allow_html=True)
     st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueG56ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/KztT2c4u8mYYUiMKdJ/giphy.gif")
-    st.write("<h3 style='text-align: center;'>I'll pick you up on the 14th! ❤️</h3>", unsafe_allow_html=True)
