@@ -54,7 +54,7 @@ st.markdown(f"""
         color: white !important;
         font-size: 18px !important;
         border-radius: 10px !important;
-        border: 1px solid #ffffff !important;
+        border: 2px solid #ffffff !important;
         height: auto !important;
         padding: 10px 20px !important;
     }}
@@ -105,3 +105,4 @@ else:
     st.balloons()
     st.markdown("<h1 style='text-align: left; color: #4caf50;'>Yay! I knew you'd say yes! 🥰</h1>", unsafe_allow_html=True)
     st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueG56ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/KztT2c4u8mYYUiMKdJ/giphy.gif")
+
